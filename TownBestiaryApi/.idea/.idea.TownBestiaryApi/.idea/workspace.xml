@@ -4,8 +4,15 @@
     <projectFile profileName="TownBestiaryApi">TownBestiaryApi/TownBestiaryApi.csproj</projectFile>
     <projectFile profileName="IIS Express">TownBestiaryApi/TownBestiaryApi.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf7ecc6-6980-4fd5-b8fc-45ce65907f4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Controllers/FactsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Extensions/IEnumerableExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Facts/Fact.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Facts/FactStorage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +33,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="226gBRyhbsJsdQjf3LnzDY5Q8lL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
