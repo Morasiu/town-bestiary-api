@@ -1,6 +1,10 @@
-﻿namespace TownBestiaryApi.Models {
+﻿using TownBestiaryApi.Models.Animals;
+
+namespace TownBestiaryApi.Models {
     public class City {
-        public Guid Id { get; set; }
-        
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public ICollection<Animal> Animnals { get; set; }
+        public ICollection<Board> Boards { get; set; }
     }
 }
