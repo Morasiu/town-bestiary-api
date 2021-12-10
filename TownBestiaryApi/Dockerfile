@@ -21,4 +21,4 @@ COPY --from=publish /app/publish .
 # Use your project name for the second parameter
 # e.g. MyProject.dll
 # ENTRYPOINT [ "dotnet", "WizardWorldApi.dll" ]
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet WizardWorldApi.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet TownBestiaryApi.dll
