@@ -5,7 +5,10 @@
     <projectFile profileName="IIS Express">TownBestiaryApi/TownBestiaryApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbf7ecc6-6980-4fd5-b8fc-45ce65907f4f" name="Default Changelist" comment="" />
+    <list default="true" id="cbf7ecc6-6980-4fd5-b8fc-45ce65907f4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639163318349</updated>
       <workItem from="1639163330179" duration="1291000" />
+      <workItem from="1639170824936" duration="1186000" />
     </task>
     <servers />
   </component>
