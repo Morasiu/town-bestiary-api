@@ -5,9 +5,7 @@
     <projectFile profileName="IIS Express">TownBestiaryApi/TownBestiaryApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbf7ecc6-6980-4fd5-b8fc-45ce65907f4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="cbf7ecc6-6980-4fd5-b8fc-45ce65907f4f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
