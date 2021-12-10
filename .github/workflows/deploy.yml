@@ -27,5 +27,5 @@ jobs:
           heroku_app_name: town-bestiary-api #Must be unique in Heroku
           heroku_email: morasiu2@gmail.com
           usedocker: true
-          appdir: TownBestiaryApi/TownBestiaryApi
+          appdir: TownBestiaryApi
           
