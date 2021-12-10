@@ -17,4 +17,8 @@ RUN dotnet publish "TownBestiaryApi.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "TownBestiaryApi.dll"]
+# Run the app on container startup
+# Use your project name for the second parameter
+# e.g. MyProject.dll
+# ENTRYPOINT [ "dotnet", "WizardWorldApi.dll" ]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet WizardWorldApi.dll
