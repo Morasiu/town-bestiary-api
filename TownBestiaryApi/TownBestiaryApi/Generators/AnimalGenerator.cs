@@ -1,6 +1,6 @@
 ﻿using TownBestiaryApi.Models.Animals;
 
-namespace TownBestiaryApi.MoqData;
+namespace TownBestiaryApi.Generators;
 
 public static class AnimalGenerator {
 	public static List<Animal> Animals { get; set; }
@@ -44,7 +44,7 @@ public static class AnimalGenerator {
 				              "najpospolitszy i najszerzej rozpowszechniony gatunek kaczki[7]. Zasiedla większość półkuli " +
 				              "północnej, ale została introdukowana do południowo-wschodniej Australii oraz na Nową Zelandię. " +
 				              "Nie jest zagrożona.",
-				Environment = "Ptak wodna",
+				Environment = "Ptak wodny",
 				Feeding = "",
 				Photo = "https://zwierzeta.geographicforall.com/wp-content/uploads/2021/04/kaczka-krzyzowka.jpg",
 				Population = Population.Large
@@ -60,6 +60,30 @@ public static class AnimalGenerator {
 				Feeding = "",
 				Photo = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Castor_fiber_vistulanus2.jpg",
 				Population = Population.Large
+			},
+			new Animal {
+				Id = 6,
+				Name = "Jeż",
+				Description = "Jeż jest samotnikiem łączącym się w pary tylko na okres godów. " +
+				              "Jest świetnym pływakiem i wspinaczem. Podobno kiedyś znaleziono jeża w kieszeni spodni " +
+				              "powieszonych na sznurku kilkadziesiąt centymetrów nad ziemią. Ale jego główną domeną są nocne wędrówki." +
+				              " Potrafi przebyć nawet 2 kilometry w ciągu jednej nocy.",
+				Environment = "Gatunek ziemno-wodny",
+				Feeding = "",
+				Photo = "https://upload.wikimedia.org/wikipedia/commons/e/e1/Erinaceus_europaeus_LC0119.jpg",
+				Population = Population.Medium
+			},
+			new Animal {
+				Id = 7,
+				Name = "Sowa",
+				Description = "Sowy to ciągle mało znane, tajemnicze i niezwykłe ptaki. Choć nie cieszą się specjalną" +
+				              " sympatią ludzi, są jedną z najciekawszych grup ptasiego świata. Mają szereg subtelnych " +
+				              "barw, kształtów i imponujących przystosowań do widzenia w nocy, doskonałego słyszenia" +
+				              " czy bezszelestnego latania.",
+				Environment = "Ptak",
+				Feeding = "",
+				Photo = "https://upload.wikimedia.org/wikipedia/commons/9/97/Waldohreule_in_freier_Wildbahn.jpg",
+				Population = Population.Medium
 			},
 		};
 	}
