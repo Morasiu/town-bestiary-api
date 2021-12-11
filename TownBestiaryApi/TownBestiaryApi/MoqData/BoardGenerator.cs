@@ -1,4 +1,5 @@
 ﻿using TownBestiaryApi.Models;
+using TownBestiaryApi.Models.Boards;
 
 namespace TownBestiaryApi.MoqData; 
 

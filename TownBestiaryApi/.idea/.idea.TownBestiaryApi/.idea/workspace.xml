@@ -9,7 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d678ebda-e687-4450-a13e-8b363db59b1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Controllers/CitiesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Controllers/CitiesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Boards/BoardsStorage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Models/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Boards/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Models/City.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/City.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/MoqData/BoardGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/MoqData/BoardGenerator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

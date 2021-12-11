@@ -1,4 +1,5 @@
 ﻿using TownBestiaryApi.Models.Animals;
+using TownBestiaryApi.Models.Boards;
 
 namespace TownBestiaryApi.Models {
     public class City {

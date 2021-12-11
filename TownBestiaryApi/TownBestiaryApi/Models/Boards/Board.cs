@@ -1,4 +1,4 @@
-﻿namespace TownBestiaryApi.Models; 
+﻿namespace TownBestiaryApi.Models.Boards; 
 
 public class Board {
 	public int Id { get; set; }
