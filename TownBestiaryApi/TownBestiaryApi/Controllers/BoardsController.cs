@@ -5,11 +5,9 @@ namespace TownBestiaryApi.Controllers;
 [Route("[controller]")]
 
 public class BoardsController : ControllerBase {
-    private List<int> _boardsId = new List<int>();
 
-    [HttpPost("board/{id}/collect")]
+    [HttpPost("{id}/collect")]
     public ActionResult Post([FromRoute] int id) {
-        _boardsId.Add(id);
         return Ok();
     }
 }
