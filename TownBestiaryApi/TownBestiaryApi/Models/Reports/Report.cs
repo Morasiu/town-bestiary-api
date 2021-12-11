@@ -7,3 +7,4 @@ public class Report {
     public DateTime Date { get; set; }
     public string Localization { get; set; }
 }
+//board/id/collect
