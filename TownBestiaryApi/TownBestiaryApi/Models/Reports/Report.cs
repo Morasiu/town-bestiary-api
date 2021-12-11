@@ -1,4 +1,6 @@
-﻿namespace TownBestiaryApi.Models.Reports; 
+﻿using TownBestiaryApi.Models.Animals;
+
+namespace TownBestiaryApi.Models.Reports; 
 
 public class Report {
     public int Id { get; set; }
@@ -7,5 +9,7 @@ public class Report {
     public DateTime Date { get; set; }
     public decimal Longitude { get; set; }
     public decimal Latitude { get; set; }
+    public string TelephoneNumber { get; set; }
+    public string Species { get; set; }
+
 }
-//board/id/collect
