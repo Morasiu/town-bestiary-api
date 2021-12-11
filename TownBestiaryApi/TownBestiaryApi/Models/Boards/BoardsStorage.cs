@@ -17,6 +17,13 @@ public class BoardsStorage {
 			Description = "Mała chatka, w której mieszka jeż Maurycy. Przy rondzie Matecznym",
 			Localization = "Aleja Spokoju 23", 
 			AnimalId = AnimalGenerator.Animals.Skip(1).First().Id 
+		},
+		new Board {
+			Id = 3, 
+			Name = "Sikorka Lusia", 
+			Description = "Gnizdko sikorki Lusi. Sikorka od 2019 mieszka tutaj.",
+			Localization = "Ziemna 2", 
+			AnimalId = AnimalGenerator.Animals.Skip(2).First().Id 
 		}
 	};
 }

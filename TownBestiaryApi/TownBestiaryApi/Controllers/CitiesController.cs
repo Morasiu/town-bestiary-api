@@ -33,4 +33,14 @@ public class CitiesController : ControllerBase {
 
 		return Ok(city.Animnals);
 	}
+	
+	[HttpGet("{id}/boards")]
+	public ActionResult<List<Animal>> GetBoards([FromRoute] int id) {
+		var city = CityGenerator.Cities.FirstOrDefault(a => a.Id == id);
+		if (city is null) {
+			return NotFound();
+		}
+
+		return Ok(city.Boards);
+	}
 }
