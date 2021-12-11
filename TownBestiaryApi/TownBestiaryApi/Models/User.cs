@@ -1,4 +1,5 @@
-﻿using TownBestiaryApi.Models.Reports;
+﻿using TownBestiaryApi.Models.Boards;
+using TownBestiaryApi.Models.Reports;
 
 namespace TownBestiaryApi.Models; 
 
