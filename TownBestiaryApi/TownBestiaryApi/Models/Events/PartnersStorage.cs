@@ -3,7 +3,7 @@
 public class PartnersStorage {
 	public static ICollection<Event> Events { get; } = new List<Event> {
 		new Event {
-			Title = "Wesprzyj fundacji KarmimyPsiaki!",
+			Title = "Wesprzyj KarmimyPsiaki!",
 			Description =
 				"Naszą misją jest eliminowanie bezdomności zwierząt poprzez znajdowanie im domów, pomoc schroniskom oraz popularyzację odpowiedzialnych adopcji. Wspmórz nas, a razem pomożemy Psiakom i Kociakom!",
 			PhotoUrl = "https://www.karmimypsiaki.pl/blog/wp-content/uploads/2016/01/chihuahua-portrait.jpg"
