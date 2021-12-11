@@ -9,7 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d678ebda-e687-4450-a13e-8b363db59b1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Controllers/CitiesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Controllers/CitiesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Controllers/UsersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Reports/Report.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Reports/ReportType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/MoqData/AnimalGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Generators/AnimalGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/MoqData/BoardGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Generators/BoardGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/MoqData/CityGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Generators/CityGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/WeatherForecast.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +28,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="227H8NKVeqFZB9LpxvJyzpe0s1i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.TownBestiaryApi">
     <configuration name="TownBestiaryApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TownBestiaryApi/TownBestiaryApi.csproj" />
@@ -52,8 +76,20 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d678ebda-e687-4450-a13e-8b363db59b1f" name="Changes" comment="" />
+      <created>1639181550175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639181550175</updated>
+      <workItem from="1639181561859" duration="1406000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
