@@ -17,14 +17,16 @@ public class UsersController : ControllerBase {
                     Id = 1,
                     Date = DateTime.Now.AddDays(-7),
                     Type = ReportType.InjuredAnimal,
-                    Localization = "Zagórze 9",
+                    Longitude = 50.017554m,
+                    Latitude = 19.816262m,
                     Message = "Ranna sarna leży w rowie przy drodze"
                 },
                 new Report {
                     Id = 2,
                     Date = DateTime.Now.AddDays(-20),
                     Type = ReportType.DangerousAnimal,
-                    Localization = "Liściasta 8",
+                    Longitude = 50.022185m,
+                    Latitude = 19.911567m,
                     Message = "Stado dzików przy śmietniku"
                 }
             },
