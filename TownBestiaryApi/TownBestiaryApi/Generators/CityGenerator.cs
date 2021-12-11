@@ -11,85 +11,85 @@ public static class CityGenerator {
 			new City {
 				Id = 1,
 				Name = "Kraków",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 2,
 				Name = "Warszawa",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 3,
 				Name = "Gdańsk",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 4,
 				Name = "Katowice",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 5,
 				Name = "Kielce",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 6,
 				Name = "Bydgoszcz",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 7,
 				Name = "Łódź",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 8,
 				Name = "Poznań",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 9,
 				Name = "Wrocław",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 10,
 				Name = "Lublin",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 11,
 				Name = "Białystok",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 12,
 				Name = "Gdynia",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 13,
 				Name = "Opole",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			},
 			new City {
 				Id = 14,
 				Name = "Szczecin",
-				Animnals = AnimalGenerator.Animals,
+				Species = SpeciesGenerator.Species,
 				Boards = BoardsStorage.Boards
 			}
 		};

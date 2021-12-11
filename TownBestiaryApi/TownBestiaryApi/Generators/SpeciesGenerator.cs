@@ -2,12 +2,12 @@
 
 namespace TownBestiaryApi.Generators;
 
-public static class AnimalGenerator {
-	public static List<Animal> Animals { get; set; }
+public static class SpeciesGenerator {
+	public static List<Species> Species { get; set; }
 
-	static AnimalGenerator() {
-		Animals = new List<Animal> {
-			new Animal {
+	static SpeciesGenerator() {
+		Species = new List<Species> {
+			new Species {
 				Id = 1,
 				Name = "Wiewiórka szara",
 				Description =
@@ -18,7 +18,7 @@ public static class AnimalGenerator {
 				Photo = "https://upload.wikimedia.org/wikipedia/commons/a/a1/Black_squirrel_in_Santa_Clara_CA.jpg",
 				Population = Population.Medium
 			},
-			new Animal {
+			new Species {
 				Id = 2,
 				Name = "Wiewiórka pospolita",
 				Description = "Sciurus vulgaris - Tułów wraz z głową wiewiórki pospolitej osiągają łącznie długość 20–24 cm, ogona 17–20 cm, przy masie ciała 200–300 gramów. Zwierzę charakteryzuje się ubarwieniem zmiennym.",
@@ -27,7 +27,7 @@ public static class AnimalGenerator {
 				Photo = "https://upload.wikimedia.org/wikipedia/commons/0/02/Eichh%C3%B6rnchen_D%C3%BCsseldorf_Hofgarten_edit.jpg",
 				Population = Population.Medium
 			},
-			new Animal {
+			new Species {
 				Id = 3,
 				Name = "Kuna domowa",
 				Description = "Martes foina – synantropijny gatunek niewielkiego ssaka drapieżnego z rodziny łasicowatych. " +
@@ -37,7 +37,7 @@ public static class AnimalGenerator {
 				Photo = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Beech_Marten.jpg/1280px-Beech_Marten.jpg",
 				Population = Population.Small
 			},
-			new Animal {
+			new Species {
 				Id = 4,
 				Name = "Kaczka krzyżówka",
 				Description = "Anas platyrhynchos – gatunek dużego ptaka wodnego z rodziny kaczkowatych. Jest to " +
@@ -49,7 +49,7 @@ public static class AnimalGenerator {
 				Photo = "https://zwierzeta.geographicforall.com/wp-content/uploads/2021/04/kaczka-krzyzowka.jpg",
 				Population = Population.Large
 			},
-			new Animal {
+			new Species {
 				Id = 5,
 				Name = "Bóbr europejski",
 				Description = "Castor fiber – gatunek ziemno-wodnego gryzonia z rodziny bobrowatych (Castoridae). " +
@@ -61,7 +61,7 @@ public static class AnimalGenerator {
 				Photo = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Castor_fiber_vistulanus2.jpg",
 				Population = Population.Large
 			},
-			new Animal {
+			new Species {
 				Id = 6,
 				Name = "Jeż",
 				Description = "Jeż jest samotnikiem łączącym się w pary tylko na okres godów. " +
@@ -73,7 +73,7 @@ public static class AnimalGenerator {
 				Photo = "https://upload.wikimedia.org/wikipedia/commons/e/e1/Erinaceus_europaeus_LC0119.jpg",
 				Population = Population.Medium
 			},
-			new Animal {
+			new Species {
 				Id = 7,
 				Name = "Sowa",
 				Description = "Sowy to ciągle mało znane, tajemnicze i niezwykłe ptaki. Choć nie cieszą się specjalną" +

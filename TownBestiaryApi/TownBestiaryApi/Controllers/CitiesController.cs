@@ -24,18 +24,18 @@ public class CitiesController : ControllerBase {
 		return Ok(city);
 	}
 
-	[HttpGet("{id}/animals")]
-	public ActionResult<List<Animal>> GetAnimals([FromRoute] int id) {
+	[HttpGet("{id}/species")]
+	public ActionResult<List<Species>> GetSpecies([FromRoute] int id) {
 		var city = CityGenerator.Cities.FirstOrDefault(a => a.Id == id);
 		if (city is null) {
 			return NotFound();
 		}
 
-		return Ok(city.Animnals);
+		return Ok(city.Species);
 	}
 	
 	[HttpGet("{id}/boards")]
-	public ActionResult<List<Animal>> GetBoards([FromRoute] int id) {
+	public ActionResult<List<Species>> GetBoards([FromRoute] int id) {
 		var city = CityGenerator.Cities.FirstOrDefault(a => a.Id == id);
 		if (city is null) {
 			return NotFound();

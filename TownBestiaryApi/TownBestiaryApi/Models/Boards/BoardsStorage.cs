@@ -11,7 +11,7 @@ public class BoardsStorage {
 			Localization = "ul. Liściasta 10", 
 			Longitude = 50.022744m,
 			Latitude = 19.912249m,
-			AnimalId = AnimalGenerator.Animals.Skip(6 - 1).First().Id 
+			AnimalId = SpeciesGenerator.Species.Skip(6 - 1).First().Id 
 		},
 		new Board {
 			Id = 2, 
@@ -20,7 +20,7 @@ public class BoardsStorage {
 			Localization = "Aleja Spokoju 23",
 			Longitude = 50.0654m,
 			Latitude = 19.9690m,
-			AnimalId = AnimalGenerator.Animals.Skip(6 - 1).First().Id 
+			AnimalId = SpeciesGenerator.Species.Skip(6 - 1).First().Id 
 		},
 		new Board {
 			Id = 3, 
@@ -29,7 +29,7 @@ public class BoardsStorage {
 			Localization = "Ziemna 2",
 			Longitude = 50.0654m,
 			Latitude = 19.9690m,
-			AnimalId = AnimalGenerator.Animals.Skip(2).First().Id 
+			AnimalId = SpeciesGenerator.Species.Skip(2).First().Id 
 		},
 		new Board {
 			Id = 4, 
@@ -38,7 +38,7 @@ public class BoardsStorage {
 			Localization = "Nocna 15",
 			Longitude = 50.0694m,
 			Latitude = 19.9419m,
-			AnimalId = AnimalGenerator.Animals.Skip(7 - 1).First().Id 
+			AnimalId = SpeciesGenerator.Species.Skip(7 - 1).First().Id 
 		},
 		new Board {
 			Id = 5, 
@@ -47,7 +47,7 @@ public class BoardsStorage {
 			Localization = "Jajeczna 24",
 			Longitude = 50.0659m,
 			Latitude = 19.9321m,
-			AnimalId = AnimalGenerator.Animals.Skip(6 - 1).First().Id 
+			AnimalId = SpeciesGenerator.Species.Skip(6 - 1).First().Id 
 		},
 		new Board {
 			Id = 6, 
@@ -56,7 +56,7 @@ public class BoardsStorage {
 			Localization = "Wrzosowa 2",
 			Longitude = 50.0404m,
 			Latitude = 19.8797m,
-			AnimalId = AnimalGenerator.Animals.Skip(5 - 1).First().Id 
+			AnimalId = SpeciesGenerator.Species.Skip(5 - 1).First().Id 
 		},
 		new Board {
 			Id = 7, 
@@ -65,7 +65,7 @@ public class BoardsStorage {
 			Localization = "Orzechowa 21",
 			Longitude = 50.0415m,
 			Latitude = 19.9496m,
-			AnimalId = AnimalGenerator.Animals.Skip(2 - 1).First().Id 
+			AnimalId = SpeciesGenerator.Species.Skip(2 - 1).First().Id 
 		},
 		new Board {
 			Id = 8, 
@@ -74,7 +74,7 @@ public class BoardsStorage {
 			Localization = "Skoczna 65",
 			Longitude = 50.0415m,
 			Latitude = 19.9496m,
-			AnimalId = AnimalGenerator.Animals.Skip(3 - 1).First().Id 
+			AnimalId = SpeciesGenerator.Species.Skip(3 - 1).First().Id 
 		}
 	};
 }
