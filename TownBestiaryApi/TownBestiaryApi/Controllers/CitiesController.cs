@@ -51,6 +51,6 @@ public class CitiesController : ControllerBase {
 			return NotFound();
 		}
 
-		return Ok(city.Boards);
+		return Ok(city.Events);
 	}
 }

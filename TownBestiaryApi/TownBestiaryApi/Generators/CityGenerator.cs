@@ -1,6 +1,8 @@
-﻿using TownBestiaryApi.Models;
+﻿using TownBestiaryApi.Extensions;
+using TownBestiaryApi.Models;
 using TownBestiaryApi.Models.Boards;
 using TownBestiaryApi.Models.Events;
+using TownBestiaryApi.Models.Facts;
 
 namespace TownBestiaryApi.Generators;
 
@@ -72,6 +74,7 @@ public static class CityGenerator {
 			city.Species = SpeciesGenerator.Species;
 			city.Boards = BoardsStorage.Boards;
 			city.Events = EventStorage.CityEvents;
+			city.Fact = FactStorage.CityFact;
 		}
 	}
 }
