@@ -82,7 +82,7 @@ public static class SpeciesGenerator {
 				              " czy bezszelestnego latania.",
 				Environment = "Ptak",
 				Feeding = "",
-				Photo = "https://upload.wikimedia.org/wikipedia/commons/9/97/Waldohreule_in_freier_Wildbahn.jpg",
+				Photo = "https://cdn.vox-cdn.com/thumbor/fnecWLjsCx9TQ1hHS5uhuWEc84Q=/0x0:3000x2000/1200x800/filters:focal(1418x41:1898x521)/cdn.vox-cdn.com/uploads/chorus_image/image/69886034/barry_owl.0.jpg",
 				Population = Population.Medium
 			},
 		};

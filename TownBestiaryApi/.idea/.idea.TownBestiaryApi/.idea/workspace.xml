@@ -9,9 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d678ebda-e687-4450-a13e-8b363db59b1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Models/Reports/Report.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Reports/Report.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Models/Users/UserStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Users/UserStorage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Generators/SpeciesGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Generators/SpeciesGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
