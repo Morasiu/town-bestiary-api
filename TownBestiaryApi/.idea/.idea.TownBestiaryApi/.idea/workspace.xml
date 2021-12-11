@@ -9,8 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d678ebda-e687-4450-a13e-8b363db59b1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TownBestiaryApi/Controllers/AnimalsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TownBestiaryApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Models/Reports/Report.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Reports/Report.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TownBestiaryApi/Models/Users/UserStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TownBestiaryApi/Models/Users/UserStorage.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639181550175</updated>
-      <workItem from="1639181561859" duration="4710000" />
+      <workItem from="1639181561859" duration="5539000" />
+      <workItem from="1639191083858" duration="313000" />
     </task>
     <servers />
   </component>
