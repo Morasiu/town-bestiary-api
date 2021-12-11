@@ -14,7 +14,8 @@ public class UserStorage {
 				Type = ReportType.InjuredAnimal,
 				Longitude = 50.017554m,
 				Latitude = 19.816262m,
-				Message = "Ranna sarna leży w rowie przy drodze"
+				Message = "Ranna sarna leży w rowie przy drodze",
+				Species = "Sarna"
 			},
 			new Report {
 				Id = 2,
@@ -22,7 +23,8 @@ public class UserStorage {
 				Type = ReportType.DangerousAnimal,
 				Longitude = 50.022185m,
 				Latitude = 19.911567m,
-				Message = "Stado dzików przy śmietniku"
+				Message = "Stado dzików przy śmietniku",
+				Species = "Dzik"
 			}
 		},
 		CollectedBoards = new List<Board>(BoardsStorage.Boards.Take(2)),
