@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TownBestiaryApi.Models;
+using TownBestiaryApi.Models.Animals;
 using TownBestiaryApi.MoqData;
 
 namespace TownBestiaryApi.Controllers; 
@@ -21,5 +22,15 @@ public class CitiesController : ControllerBase {
 		}
 
 		return Ok(city);
+	}
+
+	[HttpGet("{id}/animals")]
+	public ActionResult<List<Animal>> GetAnimals([FromRoute] int id) {
+		var city = CityGenerator.Cities.FirstOrDefault(a => a.Id == id);
+		if (city is null) {
+			return NotFound();
+		}
+
+		return Ok(city.Animnals);
 	}
 }
