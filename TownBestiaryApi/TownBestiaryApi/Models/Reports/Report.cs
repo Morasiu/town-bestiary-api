@@ -5,5 +5,7 @@ public class Report {
     public string Message { get; set; }
     public ReportType Type { get; set; }
     public DateTime Date { get; set; }
-    public string Localization { get; set; }
+    public decimal Longitude { get; set; }
+    public decimal Latitude { get; set; }
 }
+//board/id/collect
