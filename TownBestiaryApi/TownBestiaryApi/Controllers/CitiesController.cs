@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TownBestiaryApi.Generators;
 using TownBestiaryApi.Models;
 using TownBestiaryApi.Models.Animals;
-using TownBestiaryApi.MoqData;
 
 namespace TownBestiaryApi.Controllers; 
 [ApiController]
