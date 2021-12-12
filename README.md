@@ -7,3 +7,6 @@ https://town-bestiary-api.herokuapp.com/swagger/index.html
 
 Web:
 https://dzordzomen.github.io/town-bestiary/
+
+Web source:
+https://github.com/DzordzoMen/town-bestiary
